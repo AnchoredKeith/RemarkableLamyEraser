@@ -71,17 +71,17 @@ static const int LOCATION_LOOKUP_TOUCH[2][NUM_EFFECTS][4][2] = {
   {//NOTEBOOK
    // RHP                RHL                LHP                LHL
     { {        0,    0}, {   0,         0}, {        0,    0}, {   0,         0} }, //NULL_EFFECT          0
-    { {T_RM2_RHX, 1850}, {  60, T_RM2_RHY}, {T_RM2_LHX, 1810}, {  80, T_RM2_LHY} }, //TOOLBAR              1
-    { {T_RM2_RHX, 1720}, { 150, T_RM2_RHY}, {T_RM2_LHX, 1700}, { 150, T_RM2_LHY} }, //WRITING              2
-    { {T_RM2_RHX, 1620}, { 240, T_RM2_RHY}, {T_RM2_LHX, 1600}, { 240, T_RM2_LHY} }, //WRITING_2            3
-    { {T_RM2_RHX, 1510}, { 350, T_RM2_RHY}, {T_RM2_LHX, 1510}, { 350, T_RM2_LHY} }, //TEXT                 4
-    { {T_RM2_RHX, 1410}, { 470, T_RM2_RHY}, {T_RM2_LHX, 1410}, { 470, T_RM2_LHY} }, //ERASER_PANEL         5
-    { {T_RM2_RHX, 1300}, { 560, T_RM2_RHY}, {T_RM2_LHX, 1300}, { 560, T_RM2_LHY} }, //SELECT               6
-    { {T_RM2_RHX, 1190}, { 650, T_RM2_RHY}, {T_RM2_LHX, 1190}, { 650, T_RM2_LHY} }, //UNDO                 7
-    { {T_RM2_RHX, 1090}, { 740, T_RM2_RHY}, {T_RM2_LHX, 1090}, { 740, T_RM2_LHY} }, //REDO                 8
-    { {      180, 1440}, { 550,       160}, {     1000, 1440}, { 550,      1450} }, //ERASER_ERASE         9
-    { {      250, 1440}, { 550,       300}, {     1140, 1440}, { 550,      1580} }, //ERASER_SELECTION    10
-    { {      280, 1280}, { 680,       160}, {     1050, 1280}, { 680,      1480} }, //ERASER_ERASE_ALL    11
+    { {T_RM2_RHX, 1820}, {  60, T_RM2_RHY}, {T_RM2_LHX, 1810}, {  80, T_RM2_LHY} }, //TOOLBAR              1
+    { {T_RM2_RHX, 1700}, { 150, T_RM2_RHY}, {T_RM2_LHX, 1700}, { 150, T_RM2_LHY} }, //WRITING              2
+    { {T_RM2_RHX, 1600}, { 240, T_RM2_RHY}, {T_RM2_LHX, 1600}, { 240, T_RM2_LHY} }, //WRITING_2            3
+    { {T_RM2_RHX, 1480}, { 350, T_RM2_RHY}, {T_RM2_LHX, 1480}, { 350, T_RM2_LHY} }, //TEXT                 4
+    { {T_RM2_RHX, 1370}, { 470, T_RM2_RHY}, {T_RM2_LHX, 1370}, { 470, T_RM2_LHY} }, //ERASER_PANEL         5
+    { {T_RM2_RHX, 1260}, { 560, T_RM2_RHY}, {T_RM2_LHX, 1260}, { 560, T_RM2_LHY} }, //SELECT               6
+    { {T_RM2_RHX, 1040}, { 650, T_RM2_RHY}, {T_RM2_LHX, 1040}, { 650, T_RM2_LHY} }, //UNDO                 7
+    { {T_RM2_RHX, 920},  { 740, T_RM2_RHY}, {T_RM2_LHX, 920},  { 740, T_RM2_LHY} }, //REDO                 8
+    { {      200, 1290}, { 550,       160}, {     1000, 1440}, { 550,      1450} }, //ERASER_ERASE         9
+    { {      310, 1290}, { 550,       300}, {     1140, 1440}, { 550,      1580} }, //ERASER_SELECTION    10
+    { {      200, 920}, { 680,       160}, {     1050, 1280}, { 680,      1480} }, //ERASER_ERASE_ALL    11
     { {      300, 1630}, { 230,       280}, {     1010, 1640}, { 230,      1480} }, //WRITING_FINELINER   12
     { {      520, 1540}, { 330,       490}, {     1220, 1530}, { 330,      1680} }, //WRITING_CALLIGRAPHY 13
     { {      200, 1150}, { 720,       180}, {      900, 1150}, { 730,      1380} }, //WRITING_BLACK       14
@@ -94,17 +94,17 @@ static const int LOCATION_LOOKUP_TOUCH[2][NUM_EFFECTS][4][2] = {
   {//PDF
    // RHP                RHL                LHP                LHL
     { {        0,    0}, {   0,         0}, {        0,    0}, {   0,         0} }, //NULL_EFFECT          0
-    { {T_RM2_RHX, 1850}, {  60, T_RM2_RHY}, {T_RM2_LHX, 1810}, {  80, T_RM2_LHY} }, //TOOLBAR              1
-    { {T_RM2_RHX, 1720}, { 150, T_RM2_RHY}, {T_RM2_LHX, 1700}, { 160, T_RM2_LHY} }, //WRITING              2
-    { {T_RM2_RHX, 1620}, { 240, T_RM2_RHY}, {T_RM2_LHX, 1600}, { 270, T_RM2_LHY} }, //WRITING_2            3
+    { {T_RM2_RHX, 1820}, {  60, T_RM2_RHY}, {T_RM2_LHX, 1820}, {  80, T_RM2_LHY} }, //TOOLBAR              1
+    { {T_RM2_RHX, 1700}, { 150, T_RM2_RHY}, {T_RM2_LHX, 1700}, { 160, T_RM2_LHY} }, //WRITING              2
+    { {T_RM2_RHX, 1600}, { 240, T_RM2_RHY}, {T_RM2_LHX, 1600}, { 270, T_RM2_LHY} }, //WRITING_2            3
     { {        0,    0}, {   0,         0}, {        0,    0}, {   0,         0} }, //TEXT                 4
-    { {T_RM2_RHX, 1510}, { 350, T_RM2_RHY}, {T_RM2_LHX, 1510}, { 360, T_RM2_LHY} }, //ERASER_PANEL         5
-    { {T_RM2_RHX, 1410}, { 470, T_RM2_RHY}, {T_RM2_LHX, 1410}, { 470, T_RM2_LHY} }, //SELECT               6
-    { {T_RM2_RHX, 1300}, { 560, T_RM2_RHY}, {T_RM2_LHX, 1300}, { 580, T_RM2_LHY} }, //UNDO                 7
-    { {T_RM2_RHX, 1190}, { 650, T_RM2_RHY}, {T_RM2_LHX, 1190}, { 650, T_RM2_LHY} }, //REDO                 8
-    { {      180, 1550}, { 430,       160}, {     1000, 1530}, { 430,      1450} }, //ERASER_ERASE         9 
-    { {      250, 1580}, { 430,       300}, {     1140, 1530}, { 430,      1580} }, //ERASER_SELECTION    10
-    { {      200, 1400}, { 560,       160}, {     1050, 1400}, { 560,      1480} }, //ERASER_ERASE_ALL    11
+    { {T_RM2_RHX, 1370}, { 350, T_RM2_RHY}, {T_RM2_LHX, 1370}, { 360, T_RM2_LHY} }, //ERASER_PANEL         5
+    { {T_RM2_RHX, 1260}, { 470, T_RM2_RHY}, {T_RM2_LHX, 1260}, { 470, T_RM2_LHY} }, //SELECT               6
+    { {T_RM2_RHX, 1040}, { 560, T_RM2_RHY}, {T_RM2_LHX, 1040}, { 580, T_RM2_LHY} }, //UNDO                 7
+    { {T_RM2_RHX, 920},  { 650, T_RM2_RHY}, {T_RM2_LHX, 920},  { 650, T_RM2_LHY} }, //REDO                 8
+    { {      200, 1290}, { 430,       160}, {     1000, 1530}, { 430,      1450} }, //ERASER_ERASE         9 
+    { {      310, 1290}, { 430,       300}, {     1140, 1530}, { 430,      1580} }, //ERASER_SELECTION    10
+    { {      200, 920}, { 560,       160}, {     1050, 1400}, { 560,      1480} }, //ERASER_ERASE_ALL    11
     { {      300, 1630}, { 230,       280}, {     1010, 1640}, { 230,      1480} }, //WRITING_FINELINER   12
     { {      520, 1540}, { 330,       490}, {     1220, 1530}, { 330,      1680} }, //WRITING_CALLIGRAPHY 13
     { {      200, 1150}, { 720,       180}, {      900, 1120}, { 730,      1380} }, //WRITING_BLACK       14
