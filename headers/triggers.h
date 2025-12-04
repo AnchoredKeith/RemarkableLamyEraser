@@ -31,8 +31,8 @@
 
 #define MAX_CYCLE_TIME         0.01 //seconds
 #define MAX_CONTACT_CLICK_TIME 0.01 //seconds
-#define MAX_CLICK_TIME         0.2  //seconds
-#define MAX_DOUBLE_CLICK_TIME  0.4  //seconds
+#define MAX_CLICK_TIME         0.4  //seconds  //0.2
+#define MAX_DOUBLE_CLICK_TIME  0.8  //seconds  //0.4
 
 int get_triggger(struct input_event *ev_pen);
 
